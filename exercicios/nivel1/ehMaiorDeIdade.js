@@ -5,7 +5,7 @@
 // Lembrar do caso de borda: idade exatamente igual a 18 deve liberar.
 
 function ehMaiorDeIdade(idade) {
-  // sua implementação aqui
+  return idade >= 18;
 }
 
 module.exports = { ehMaiorDeIdade };

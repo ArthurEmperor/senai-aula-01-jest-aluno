@@ -7,8 +7,12 @@
 //   calcularDesconto(80, 0.50)   → 40
 //   calcularDesconto(200, 0)     → 200
 
-function calcularDesconto(preco, percentual) {
-  // sua implementação aqui
+function calcularDesconto(preco, percentualDesconto) {
+  return preco - preco * percentualDesconto;
 }
+
+console.log(calcularDesconto(100, 0.1));
+console.log(calcularDesconto(80, 0.5));
+console.log(calcularDesconto(200, 0));
 
 module.exports = { calcularDesconto };

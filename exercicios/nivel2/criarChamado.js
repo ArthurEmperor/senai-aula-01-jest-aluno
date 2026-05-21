@@ -7,7 +7,7 @@
 // Use Date.now() para gerar id.
 
 function criarChamado({ titulo, descricao }) {
-  // sua implementação aqui
+   return { titulo, descricao, status: 'aberto'};
 }
 
 module.exports = { criarChamado };
