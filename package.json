@@ -1,0 +1,23 @@
+{
+  "name": "aula-01-jest-codigo-base",
+  "version": "1.0.0",
+  "description": "Codigo-base da Aula 1 — Jest 80/20 (UC 22310 Teste de Sistemas)",
+  "private": true,
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "test:src": "jest src/",
+    "test:exercicios": "jest exercicios/"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "collectCoverageFrom": [
+      "src/**/*.js",
+      "!src/**/*.test.js"
+    ]
+  }
+}
